@@ -21,8 +21,8 @@ public class OptionalTask2Item4 {
 
     //Метод обрезает строки и столбцы матрицы array, содержащие элемент maxElement, создавая матрицу arrayProcessed
     static int[][] removeRowsAndColumnsWithMaxElement(int maxElement, int[][] array) {
-        ArrayList<Integer> rows = new ArrayList();
-        ArrayList<Integer> columns = new ArrayList();
+        ArrayList<Integer> rows = new ArrayList<>();
+        ArrayList<Integer> columns = new ArrayList<>();
         // Поиск колонок и столбцов, которые надо удалить
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
